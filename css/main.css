@@ -21,7 +21,12 @@ a:hover {
 
 h1 {
 	font-size: 3em;
-	font-family:'Helvetica', 'Arial', 'Sans-Serif';
+	font-family: 'Arial', 'Sans-Serif';
+}
+
+div.edu_right h2 {
+	font-family: 'Helvetica', 'Sans-Serif';
+	color: #007FFF;
 }
 
 nav ul li, footer ul li {
@@ -46,6 +51,8 @@ figure figcaption {
     text-align: center;
 }
 
+
+
 img.icon {
 	height: 25px;
 	margin-right:8px;
@@ -62,6 +69,41 @@ div.left {
 
 div.right {
 	margin-left: 150px;
+	padding-left: 1em;
+	padding-top: 1px;
+	padding-bottom: 2em;
+}
+
+div.edu_left {
+	float: left;
+	width: 230px;
+	margin: 0;
+	padding-bottom: 2em;
+	padding-right: 1em;
+	overflow: auto;
+}
+
+div.experience {
+	border-top: 1px solid #d5d5d5;
+	margin-bottom: 18pt;
+}
+
+div.experience p {
+	font-size: 11pt;
+	margin: 0pt;
+	font-family: 'Helvetica', 'Sans-Serif';
+	color: #404040;
+}
+
+div.experience h3 {
+	font-family: 'Helvetica', 'Sans-Serif';
+	font-size: 1.3em;
+	font-weight: normal;
+	margin-bottom: 0pt;
+}
+
+div.edu_right {
+	margin-left: 220px;
 	padding-left: 1em;
 	padding-top: 1px;
 	padding-bottom: 2em;
