@@ -12,6 +12,54 @@
 </head> 
 
 <body>
+
+<nav>
+<ul>
+  <li>
+    {% if page.url == '/projects/' %}
+    <strong>Projects</strong>
+    {% else %}
+    <a href="/projects/">Projects</a>
+    {% endif %}
+  </li>
+
+  <li>
+    {% if page.url == '/education/' %}
+    <strong>Education</strong>
+    {% else %}
+    <a href="/education/">Education</a>
+    {% endif %}
+  </li>
+
+  <li>
+    {% if page.url == '/experience/' %}
+    <strong>Past Experiences</strong>
+    {% else %}
+    <a href="/experience/">Past Experiences</a>
+    {% endif %}
+  </li>
+
+  <li>
+    {% if page.url == '/skills/' %}
+    <strong>Skills</strong>
+    {% else %}
+    <a href="/skills/">Skills</a>
+    {% endif %}
+  </li>
+</ul>
+</nav>
+<h1><a style="color:black" href="/">Jason Zhao</a></h1> 
+
+<div>
+  {{ content }}
+</div>
+
 </body>
 
+<footer>
+  <ul>
+    <li>&copy; {{ site.time | date: '%Y' }} Jason Zhao</li>
+    <li><a href="/contact.html">contact</a></li>
+  </ul>
+</footer>
 </html>
