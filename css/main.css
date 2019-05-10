@@ -24,7 +24,7 @@ h1 {
 	font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
-div ul li, nav ul li, footer ul li {
+nav ul li, footer ul li {
 	display: inline;
 	margin-right: 20px;
 }

@@ -16,18 +16,18 @@
 <nav>
 <ul>
   <li>
-    {% if page.url == '/projects/' %}
-    <strong>Projects</strong>
-    {% else %}
-    <a href="/projects/">Projects</a>
-    {% endif %}
-  </li>
-
-  <li>
     {% if page.url == '/education/' %}
     <strong>Education</strong>
     {% else %}
     <a href="/education/">Education</a>
+    {% endif %}
+  </li>
+  
+  <li>
+    {% if page.url == '/projects/' %}
+    <strong>Projects</strong>
+    {% else %}
+    <a href="/projects/">Projects</a>
     {% endif %}
   </li>
 
