@@ -24,7 +24,7 @@ h1 {
 	font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
-footer ul li {
+div ul li, nav ul li, footer ul li {
 	display: inline;
 	margin-right: 20px;
 }
@@ -32,6 +32,18 @@ footer ul li {
 footer {
 	border-top: 1px solid #d5d5d5;
 	font-size: .8em;
+}
+
+figure {
+    display: inline-block;
+    margin: 20px;
+}
+figure img {
+	height: 120px;
+	margin-right: 10px;
+}
+figure figcaption {
+    text-align: center;
 }
 
 img.icon {
