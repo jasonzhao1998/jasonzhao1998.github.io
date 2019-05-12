@@ -17,7 +17,7 @@ body {
 
 a {
 	text-decoration: none;
-	color: #0088cc;
+	color: #1177cc;
 }
 
 a:hover { 
@@ -69,6 +69,11 @@ div.right {
 	padding-left: 1em;
 	padding-top: 1px;
 	padding-bottom: 2em;
+}
+
+div.right p {
+	font-size: 14pt;
+	margin-right: 20pt;
 }
 
 div.experience {
