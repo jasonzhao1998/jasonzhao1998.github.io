@@ -11,7 +11,8 @@ nav ul li, footer ul li {
 }
 
 body {
-	max-width: 720px;
+	width: 720px;
+	max-width: 90%;
 	margin: 0 auto;
 }
 
@@ -98,7 +99,7 @@ div.edu_left {
 }
 
 div.edu_right {
-	margin-left: 220px;
+	margin-left: 28%;
 	padding-left: 1em;
 	padding-top: 1px;
 	padding-bottom: 2em;
