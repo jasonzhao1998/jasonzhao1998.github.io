@@ -4,7 +4,7 @@ html {
 
 nav ul, footer ul {
 	font-size: 0.8em;
-	font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+	font-family: 'Helvetica';
 	padding: 0px;
 	list-style: none;
 }
@@ -27,15 +27,21 @@ a {
 
 a:hover { 
 	text-decoration: underline;
+	color: #0000FF;
 }
 
 h1 {
+	color: #333333;
 	font-size: 3em;
-	font-family: 'Arial', 'Sans-Serif';
+	font-family: 'Arial';
+}
+h1:hover {
+	text-decoration: underline;
+	color: #000000;
 }
 
 h3 {
-	font-family: 'Helvetica', 'Sans-Serif';
+	font-family: 'Helvetica';
 	font-size: 1.2em;
 	font-weight: normal;
 	margin-bottom: 0pt;
@@ -89,7 +95,7 @@ div.experience {
 div.experience p {
 	font-size: 11pt;
 	margin: 3pt;
-	font-family: 'Helvetica', 'Sans-Serif';
+	font-family: 'Helvetica';
 	color: #505050;
 }
 
@@ -110,7 +116,7 @@ div.edu_right {
 }
 
 div.edu_right h2 {
-	font-family: 'Helvetica', 'Sans-Serif';
+	font-family: 'Helvetica';
 	color: #007FFF;
 }
 
@@ -134,7 +140,7 @@ div.project p {
 	margin: 12pt;
 	margin-bottom: 1pt;
 	font-size: 12pt;
-	font-family: 'Helvetica', 'Sans-Serif';
+	font-family: 'Helvetica';
 	color: #505050;
 }
 
