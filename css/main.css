@@ -1,3 +1,7 @@
+html {
+  overflow-y: scroll;
+}
+
 nav ul, footer ul {
 	font-size: 0.8em;
 	font-family: 'Helvetica', 'Arial', 'Sans-Serif';
